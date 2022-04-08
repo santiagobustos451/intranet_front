@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base_style.css">
+    <script src="./base_script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar-toggle" id="navbar-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+    </div>
+    <div class="navbar" id="navbar">
+        <div class="links">
+            <div class="dropdown" data-dropdown>
+                <a class="link" href="#" data-dropdown-button>Dropdown 1</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="link">Dropdown Link 1</a>
+                    <a href="#" class="link">Dropdown Link 2</a>
+                    <a href="#" class="link">Dropdown Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <a class="link" href="#" data-dropdown-button>Dropdown 2</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="link">Dropdown Link 1</a>
+                    <a href="#" class="link">Dropdown Link 2</a>
+                    <a href="#" class="link">Dropdown Link 3</a>
+                </div>
+            </div>
+            
+            <a class="link" href="#">Link 2</a>
+            <a class="link" href="#">Link 3</a>
+        </div>
+        <div class="logo">
+            <div class="text">Intranet</div>
+            <div class="divider">|</div>
+            <img class="large" src="./assets/UNRaf_logo.png" alt="Logo">
+            <img class="small" src="./assets/UNRaf_iso.png" alt="LogoSmall">
+        </div>
+    </div>
+    <div class="content">
+        <div class="sistemas">
+            <div class="title">Acceso a Sistemas</div>
+            <div class="cards">
+                <div class="card">
+                    <a class="titulo">Nombre Sistema</a>
+                    <div class="descripcion">Este es el sistema que hace cosas de sistema.</div>
+                    <div class="admin-tools">
+                        <div>A</div>
+                        <div>B</div>
+                        <div>C</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="titulo">Nombre Sistema</a>
+                    <div class="descripcion">Este es el sistema que hace cosas de sistema.</div>
+                    <div class="admin-tools">
+                        <div>A</div>
+                        <div>B</div>
+                        <div>C</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="titulo">Nombre Sistema</a>
+                    <div class="descripcion">Este es el sistema que hace cosas de sistema.</div>
+                    <div class="admin-tools">
+                        <div>A</div>
+                        <div>B</div>
+                        <div>C</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="titulo">Nombre Sistema</a>
+                    <div class="descripcion">Este es el sistema que hace cosas de sistema.</div>
+                    <div class="admin-tools">
+                        <div>A</div>
+                        <div>B</div>
+                        <div>C</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="profile">
+            <div class="footer-dropdown" data-dropdown>
+                <div class="footer-dropdown-menu">
+                    <div class="card">Notificación 1</div>
+                    <div class="card">Notificación 2</div>
+                    <div class="card">Notificación 3</div>
+                    <div class="card">Notificación 4</div>
+                </div>
+                <a class="profile-button" data-dropdown-button> <!-- campana -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                      </svg>
+                </a>
+            </div>
+            <div class="log-status">Logged in as Pepito</div>
+            <div class="profile-pic"><img src="./assets/profile.jpg" alt=""></div>
+            <div class="footer-dropdown" data-dropdown>
+                <div class="footer-dropdown-menu">
+                    <a href="#" class="link">Soporte Técnico</a>
+                    <a href="#" class="link">Ayuda</a>
+                    <a href="#" class="link">Ver Recibos</a>
+                    <a href="#" class="link">Ver Mesas</a>
+                    <a href="#" class="link">Cerrar Sesión</a>
+                </div>
+                <a class="profile-button" data-dropdown-button> <!-- chevron -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                    </svg>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
